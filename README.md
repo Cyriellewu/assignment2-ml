@@ -6,10 +6,8 @@ This repository contains the notebook and saved experiment outputs for **Applied
 
 ```text
 .
-├── Ass2_report.pdf
 ├── README.md
 ├── assignment2.ipynb
-├── requirements.txt
 └── results/
     ├── final_model_comparison.csv
     ├── mlp_architecture_results.csv
@@ -84,15 +82,9 @@ Open `assignment2.ipynb` in Kaggle, attach the Home Credit dataset, and run all 
 
 1. Download `application_train.csv` from Kaggle.
 2. Place it in `./data/` or the repository root.
-3. Install dependencies:
+3. Open and run `assignment2.ipynb`.
 
-```bash
-pip install -r requirements.txt
-```
-
-4. Open and run `assignment2.ipynb`.
-
-The repository now includes a minimal `requirements.txt` for local setup.
+Note: this repository currently does **not** include a `requirements.txt`, so local dependencies need to be installed manually.
 
 ## Reproducibility Notes
 
@@ -103,4 +95,7 @@ The repository now includes a minimal `requirements.txt` for local setup.
 
 ## AI Tool Disclosure
 
-AI tools were used for limited support such as debugging, code review, and README polishing. The final experiment design, notebook content, and saved results were reviewed and organized for assignment submission.
+To fulfill the assignment requirements, here is a transparent breakdown of how I used **ChatGPT** in this project:
+
+* **How AI helped:** I used ChatGPT mainly as a coding and writing assistant. It helped me troubleshoot minor Python and Scikit-learn bugs, catch syntax errors, and smooth out the phrasing and formatting of my README.
+* **My personal contributions:** All the core modeling and analysis are entirely my own work. I independently designed the ML pipeline, strictly enforced the data leakage prevention steps, chose which hyperparameters to tune, and set up the evaluation logic.  I also wrote and finalized the PDF report myself, including the data interpretation, model comparisons, and insights drawn from the loss curves and feature importance charts.
