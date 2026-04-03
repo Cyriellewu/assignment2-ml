@@ -6,8 +6,10 @@ This repository contains the notebook and saved experiment outputs for **Applied
 
 ```text
 .
+├── Ass2_report.pdf
 ├── README.md
 ├── assignment2.ipynb
+├── requirements.txt
 └── results/
     ├── final_model_comparison.csv
     ├── mlp_architecture_results.csv
@@ -82,9 +84,15 @@ Open `assignment2.ipynb` in Kaggle, attach the Home Credit dataset, and run all 
 
 1. Download `application_train.csv` from Kaggle.
 2. Place it in `./data/` or the repository root.
-3. Open and run `assignment2.ipynb`.
+3. Install dependencies:
 
-Note: this repository currently does **not** include a `requirements.txt`, so local dependencies need to be installed manually.
+```bash
+pip install -r requirements.txt
+```
+
+4. Open and run `assignment2.ipynb`.
+
+The repository now includes a minimal `requirements.txt` for local setup.
 
 ## Reproducibility Notes
 
